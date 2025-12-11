@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project/assets/styles/global/reset.css" />
+    <link rel="stylesheet" href="/project/assets/styles/global/config.css">
+    <link rel="stylesheet" href="/project/assets/pages/sign-up.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <style>
+      html, body {
+        max-width: 100vw;
+        overflow-x: hidden;
+      }
+
+      .ft_title {
+        /* ... */
+        opacity: 0.65;  /* Doğru */
+      }
+
+      @media (max-width: 1440px) {
+        .footer_left { padding: 40px 20px 40px 40px; }
+        .footer_connector { margin: 0 20px; gap: 20px; }
+      }
+
+      img, .footer_img img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+</head>
+<body>
+    <!-- HEADER START -->
+     <header class="header">
+      <h1 class="logo_title"> <a href="../../index.html">Brainwave.io</a></h1>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="main">
+      <section class="section1">
+        <h2 class="login-title">Sign up</h2>
+        <p class="login-subtitle">To get started, you need to sign up here.</p>
+      </section>
+      <section class="section2">
+        <form class="login-form">
+            <div class="mb-3">
+                <label for="fullname" class="form-label">First & Last Name</label>
+                <input type="text" class="form-control" id="fullname" name="fullname" placeholder="i.e. John Doe">
+            </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="i.e. john@mail.com"
+              autocomplete="email" />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="********" />
+          </div>
+          <div class="mb-3">
+            <label for="confirm-password" class="form-label">Confirm Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="********" />
+          </div>
+          <div class="button1">
+            <button type="submit" class="btn btn-primary login-button">
+             Create an account
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <p class="signup-link">
+        Already have an account?
+        <a href="sign-up.html" class="link-primary"> Sign in now</a>
+      </p>
+    </main>
+
+    <div class="line"></div>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="footer_left">
+        <div class="footer_content">
+          <h2 class="brainwave1"> <a href="../../index.html">Brainwave.io</a></h2>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+        </div>
+        <div class="footer_img">
+          <a href="https://x.com/thebrainwave1"><img src="../assets/icons/twiter.svg" alt="twiter" /></a>
+          <a href="https://www.facebook.com/charitybrainwave/"
+            ><img src="../assets/icons/facebook.svg" alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/charitybrainwave/"><img src="../assets/icons/insta.svg" alt="insta" /></a>
+          <a href="https://www.linkedin.com/company/brainwave-digital/"
+            ><img src="../assets/icons/linkedin.svg" alt="linkedin"
+          /></a>
+        </div>
+      </div>
+
+      <div class="footer_connector">
+        <div class="footer-column column1">
+          <h3 class="ft_title">Company</h3>
+          <ul class="footer_list">
+            <li><a href="../pages/about-us.html">About us</a></li>
+            <li><a href="https://brainwave.org.uk/contact-us/">Contact us</a></li>
+            <li><a href="https://brainwavecareers.com/">Careers</a></li>
+            <li><a href="https://us.amazon.com/stores/author/B0C8GKD9B5?ref_=ast_author_cabib">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column column2">
+          <h3 class="ft_title">Product</h3>
+          <ul class="footer_list">
+            <li><a href="https://www.gehealthcare.com/products/advanced-visualization/all-applications/brainwave?srsltid=AfmBOoreLdd50CoAcMmqJaChifaANxVUm-crJlQOU9BGzSy1XN3FxmRr">Features</a></li>
+            <li><a href="https://brainwave.org.uk/our-fees/">Pricing</a></li>
+            <li><a href="https://brainwave.org.uk/reports-publications/brainwave-news-summer-2025/">News</a></li>
+            <li><a href="https://slashdot.org/software/help-desk/for-brainwave-grc/">Help desk</a></li>
+            <li><a href="../../project/pages/support.html">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column column3">
+          <h3 class="ft_title">Services</h3>
+          <ul class="footer_list">
+            <li><a href="https://www.brainwavesmarketing.com/">Digital Marketing</a></li>
+            <li><a href="https://brainwavehq.org/content-creation/">Content Writing</a></li>
+            <li><a href="https://brainwavesindia.com/take-your-business-to-the-next-level-with-seo/">SEO for Business</a></li>
+            <li><a href="https://dribbble.com/tags/brainwave">UI Design</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column column4">
+          <h3 class="ft_title">Legal</h3>
+          <ul class="footer_list">
+            <li><a href="https://brainwave.org.uk/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://brainwavescience.com/terms-conditions/">Terms & Conditions</a></li>
+            <li><a href="https://www.brainwavepc.com/warranty-return-policy">Return Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>
